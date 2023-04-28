@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: O tempo de execução é semelhante ao do método selection sort, mas com diferenças no melhor cenario, com uma lista ja ordenada, sendo de notação: n, menor do que do metodo selection sort que possui notação n ^ 2 para os melhores cenarios.
+
+sort2 uses: merge sort
+
+How do you know?: Possuindo o menor tempo de execução em todos os casos, ordenados ou não ordenados, corresponde com a notação para os melhores e piores casos: n log n, que é menor do que dos outros metodos de ordenação.
+
+sort3 uses: selection
+
+How do you know?: O tempo de execução da aplicação ultrapassa o dos outros métodos de ordenação para uma lista já ordenada, o que corresponde com a notação de melhor cenario do selection sort: n^2, é maior que o do bubble sorte e o merge sort.

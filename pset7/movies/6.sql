@@ -1,0 +1,1 @@
+SELECT AVG(r.rating) FROM ratings AS r LEFT JOIN movies AS m ON r.movie_id = m.id;
